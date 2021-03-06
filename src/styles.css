@@ -1,7 +1,33 @@
 .container{
-    display: flex;
-    place-content: center;
     margin-top:100px;
-  
+}
+.row-header{
+margin-left: 50px;
+margin-bottom:40px;
+}
+
+.intro{
+margin-left: 1.10em;
 
 }
+
+.navbar-nav {
+ display:flex;
+ margin-left:800px;
+ margin-top: -35px;
+}
+
+.navbar-brand {
+font-family: 'Times New Roman', Times, serif;
+}
+
+.nav-link{
+font-family:'Times New Roman', Times, serif;
+}
+
+
+.p{
+font-family: "Arapey, serif";
+margin-left:20px;
+}
+

@@ -1,58 +1,59 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Portfolio</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+     <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Arapey&family=Playfair+Display&family=Playfair+Display+SC:ital@1&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="/src/styles.css"/>
   </head>
+
 <body>
-    <div class="container  ">
-<div class="row-header ">
-    <div class="col-3 display-block align-center mt:50px">
+    <div class="container ">
+<div class="d-flex justify-content-center row-header ">
+    <div class="col-4 display-block align-center mt:50px">
         <img src="src/Profile_pic.jpeg" class="max-witdh:-1% img-thumbnail rounded float-start ">
     </div>
-    <div class="col-9 display-block align-center ">
-    <h1 class=" text-center"> Isabel Castillo </h1>
-    <h4 class=" text-center">Front-End Developer based Worldwide 🌏 </h4>
+    <div class="col-5 ">
+    <h1 class=" text-center" style="font-family:'Playfair Display SC', serif"; > Isabel Castillo </h1>
+    <h4 class=" text-center mb-1" style="font-family: 'Times New Roman', Times, serif">Front-End Developer based Worldwide 🌏 </h4>
     </br>
-    <p>
+    <p class="intro  mb-5 d-flex justify-content-center" style="font-family: 'Arapey', serif";>
     Love traveling, trying new food (secretly in love with Korean Cuisine 🍲 )
     & the freedom that coding remotely brings me. Looking forward to collaborating 
     in exciting projects that promote sustainability & care for the environment.
-    
+    </p>
+    </div>
 
 </div>
-<hr/>
-<div class="row d-flex justify-content-center">
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+
+<div class="row">
+    <nav class="d-flex justify-content-centernavbar navbar-expand-sm navbar-light fixed " style="background-color:#005E5E;">
   <div class="container-fluid ">
-    <a class="navbar-brand" href="#">Navbar</a>
+    <a class="navbar-brand pr-4" href="#" style= "color:white"> IC </a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav d-flex align-self-center">
-        <a class="nav-link active" aria-current="page" href="#">Home</a>
-        <a class="nav-link" href="#">Projects</a>
-        <a class="nav-link" href="#">Contact</a>
+      <div class="navbar-nav ">
+        <a class="nav-link active" aria-current="page" href="#" style= "color:white">Home</a>
+        <a class="nav-link " href="#" style= "color:white">Projects</a>
+        <a class="nav-link" href="#" style= "color:white">Contact</a>
       </div>
     </div>
   </div>
 </nav>
 </div>
-<div class="row ">
-    <a href="projects.html">
-      Lastest Projects
-      </a>
-    </h5>
-    <div class="row">
+<div class="row mt-5">
+ 
       <div class="col-4">
-        <h5> Weather App<h5>
-        <p>
+        <h5  style= "font-family:'Playfair Display', serif"> Weather App</h5>
+        <p style="font-family: 'Arapey', serif";>
           Inspired by nature. 
           Waking up to a beautiful waterfall reminds the user of the fluidity of life, the strenght & adaptability
           of water. Built using React.
@@ -60,8 +61,8 @@
         <img src="/src/WordlWeather.jpg" class="img-thumbnail max-width:1%"/>
       </div>
       <div class="col-4">
-        <h5>Book List  </h5>
-        <p>
+        <h5 style= "font-family:'Playfair Display', serif"> Book List  </h5>
+        <p style="font-family: 'Arapey', serif";>
           Inspired by self-transformation. Built using React.
           Compilation of books aimed to free ourselves from ourselves &
           become unconditionally happiness. 
@@ -70,17 +71,18 @@
         <img src="/src/BookList.jpg" class="img-thumbnail max-width:1%"/>
       </div>
       <div class="col-4">
-        <h5>Earthship Castle </h5>
-        <p>
+        <h5  style= "font-family:'Playfair Display', serif">Earthship Castle </h5>
+        <p style="font-family: 'Arapey', serif";>
           Inspired by sustainabilty & efficiency.
           Waking up with the ability of picking up your own cherries 
           is a worth dreaming for.  Built using React.
         </p>
         <img src="/src/EarthShip_Castle.jpg" class="img-thumbnail max-width:1%"/>
       </div>
-    </div>
+    
 
   </div>
   </div>
+  
 </body>
 </html>
