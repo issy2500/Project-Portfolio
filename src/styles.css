@@ -31,6 +31,10 @@ font-family:'Times New Roman', Times, serif;
 }
 
 
+.descriptive_p{
+    margin-bottom:70px;
+}
+
 p{
 font-family: "Arapey, serif";
 margin-bottom:1rem;
@@ -63,7 +67,9 @@ a {
     text-decoration : none;
 }
 
-
+img{
+    margin-bottom:1rem;
+}
 
 @media(max-width: 576px) {
     
