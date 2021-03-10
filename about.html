@@ -14,10 +14,21 @@
     <link rel="stylesheet" href="/src/styles.css"/>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-        <h1 style="font-family:'Playfair Display SC', serif"> About </h1>
-        <p class="text-center">Enthused about learning new languages and collaborative work.</p>
+    <div class="container mt-5">
+        <div class="row mb-3 d-flex justify-content-center">
+        <div class="col-sm-4 display-block  align-center">
+            <img src="/src/beach.jpeg" alt="beach picture" class="d-sm-block img-fluid shadow rounded">
+            </div>
+            <div class="col-sm-4">
+                <h1 style="font-family:'Playfair Display SC'", serif" class="mb-3"> Little About Me </h1>
+        <p class="intro d-sm-block  mb-5 d-flex justify-content-center ">
+            Enthused about learning foreign languages and work on collaborative projects. I draw
+            inspiration from nature to design websites. Coding is a never ending puzzle 🧩  that I truly enjoy learning 
+            & understanding more and more each day. If I'm not coding, enjoying nature or trying new cuisine, I am traveling ✈ 
+            making as many memories as possible!
+
+        </p>
+        </div>
         </div>
     <div class="row-nav">
     <nav class="d-flex justify-content-centernavbar navbar-expand-sm navbar-light fixed " style="background-color:#005E5E;">
@@ -37,37 +48,36 @@
 </nav>
 </div>
 <div class="row mt-5" >
-    <h2 class="contact-me" style="font-family: 'Times New Roman', Times, serif"> Contact Me</h2>
-    <p style="font-family: 'Arapey', serif">
+    <h2 class="contact-me mt-3" style="font-family: 'Times New Roman', Times, serif"> Contact Me</h2>
+    <p style="font-family: 'Arapey', serif" class="mb-1">
         For work inquiries, email me at:    
         <a href="mailto:inordstrom28@gmail.com"> inordstrom28@gmail.com</a>
         or fill out the form below:
     </p>
     <div class="row">
-        <div class="col-xl-8  py-5">
+        <div class="col-xl-8  py-3">
             <form id="contact-form" method="post" action="contact.php" role="form">
                 <div class="email" style="font-family: 'Arapey', serif">
                     <label for="form_email"> Email</label>
-                    <input id="form_email" type="email" placeholder="Please enter your email" required="required" >
+                </br>
+                    <input id="form_email" type="email" placeholder="Please enter your email " required="required" >
                 </div>
-                <div class="row">
+                <div class="row mt-4">
                     <div class="col-12">
                         <label for="form_message" style="font-family: 'Arapey', serif">Message </label>
-                        <textarea id="form_message" name="message" class="form-control mb-5" placeholder="Enter Message" rows="4">
+                        <textarea id="form_message" name="message" class="form-control mb-3" placeholder="Enter Message" rows="4">
 
                         </textarea>
                     </div>
                 </div>
-                <div class="row">
-                    <input type="submit" class="btn btn-sucess btn-send border-primary" style="font-family: 'Arapey', serif" value="Send Message"/>
-                </div>
-
-
             </form>
         </div>
-
-
     </div>
+     <div class="row">
+         <div class="col-3">
+                    <input type="submit" class="btn btn-sucess btn-send border-primary" style="font-family: 'Arapey', serif" value="Send Message"/>
+               </div>
+                </div>
    
 
 
