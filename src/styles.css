@@ -27,7 +27,7 @@ font-family: "Arapey, serif";
 
 .navbar-nav {
  display:flex;
- margin-left:800px;
+ margin-left:720px;
  margin-top: -35px;
 }
 
@@ -96,6 +96,11 @@ img{
     margin-top:-5px;
 }
 
+.navbar-brand {
+    margin-left:5px;
+}
+
+
     h1 {
         font-size: 25px;
         line-height: 1.5;
@@ -112,13 +117,13 @@ img{
     }
 
     h5{
-        font-size:11px;
+        font-size:15px;
     }
 
     p {
         text-align: center;
         margin-bottom:-150px;
-        font-size:10px;
+        font-size:15px;
     }
 
     
@@ -134,10 +139,33 @@ img{
 
 
 @media(max-width: 375px){
-a {
 
-    font-size: 10px;
+.container{
+    margin:-3px;
 }
 
+    a {
+    font-size: 15px;
+}
 
+.form_email{
+    margin-top:6px;
+}
+
+.navbar-brand{
+margin-left:5px;
+}
+
+.intro{
+ margin-left:-15px;
+
+}
+
+}
+
+@media(max-width: 1024px){
+
+    .beach_pic{
+        margin-top:30px;
+    }
 }
